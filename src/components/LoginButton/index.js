@@ -36,7 +36,6 @@ const LoginButton = () => {
     background: 'transparent',
     border: 'none',
     borderRadius: '20px',
-    border: '1px solid #1f1f1f',
     backgroundColor: '#1a1a1a',
     color: '#fff',
     textAlign: 'center',
