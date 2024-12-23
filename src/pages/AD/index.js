@@ -1,6 +1,5 @@
-import { Button, Row, Col } from 'antd';
+import { Button } from 'antd';
 import { FilePdfOutlined } from '@ant-design/icons';
-import Item from '../../components/Item';
 
 function AD() {
     return (
@@ -10,7 +9,6 @@ function AD() {
                 <Button type='primary' loading={false} href='/'>Home</Button>
                 <Button icon={<FilePdfOutlined />}>Upload</Button>
             </div>
-            <Item />
         </>
     )
 }

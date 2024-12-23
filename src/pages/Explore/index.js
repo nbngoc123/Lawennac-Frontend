@@ -1,10 +1,10 @@
 import { Layout } from 'antd';
 import ToolCards from '../../components/ToolCards';
-import Topics from '../../components/Topics';
+// import Topics from '../../components/Topics';
 import Gallery from '../../components/Gallery';
 import './Explore.css';
 
-const { Header, Content } = Layout;
+const { Content } = Layout;
 
 const Explore = () => {
   return (

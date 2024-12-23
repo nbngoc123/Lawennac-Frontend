@@ -2,10 +2,10 @@ import { Layout } from 'antd';
 import HistoryArea from '../../components/HistoryArea';
 import PromptArea from '../../components/PromptArea';
 import { Button, Row, Col } from 'antd';
-import Sidebar from '../../components/Sidebar';
+// import Sidebar from '../../components/Sidebar';
 import { useState } from 'react';
 import ListImg from "../../components/listImg";
-import { RightOutlined, LeftOutlined, SearchOutlined, MenuFoldOutlined } from '@ant-design/icons';
+import { RightOutlined, LeftOutlined } from '@ant-design/icons';
 import './style.css';
 
 

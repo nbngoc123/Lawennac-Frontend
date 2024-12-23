@@ -1,12 +1,12 @@
 import React, { useState, useEffect, useRef } from "react";
 import axios from "axios";
-import { useSelector } from "react-redux";
+// import { useSelector } from "react-redux";
 import Masonry from "react-masonry-css";
 import { Image, Spin, Skeleton } from "antd";
 import ImageCreate from "./ImageCreator";
 import './gallery.css'
 const Gallery = () => {
-  const selectedTag = useSelector((state) => state.tagReducer);
+  // const selectedTag = useSelector((state) => state.tagReducer);
   const [images, setImages] = useState([]); // State duy nhất cho hình ảnh
   const [loading, setLoading] = useState(false);
   const didMountRef = useRef(false); // Ref để theo dõi lần render đầu tiên

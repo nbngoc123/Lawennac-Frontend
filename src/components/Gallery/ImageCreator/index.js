@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { Card, Avatar, Tooltip, Dropdown, Menu, Button, message  } from 'antd';
-import { EditOutlined, ArrowRightOutlined, HeartOutlined, MessageOutlined, StarOutlined, UserOutlined, MoreOutlined, InfoCircleOutlined } from '@ant-design/icons';
+import { EditOutlined, ArrowRightOutlined, UserOutlined, MoreOutlined, InfoCircleOutlined } from '@ant-design/icons';
 import { useDispatch } from 'react-redux';
 import { setSelectedImage } from '../../../actions/imageActions';
-import { useSelector } from 'react-redux';
+// import { useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 
 const { Meta } = Card;

@@ -6,7 +6,6 @@ import { fetchImageSuccess } from '../../actions/generateImage'
 import './style.css';
 
 const { Panel } = Collapse;
-const { Option } = Select;
 
 const PromptArea = () => {
   const dispatch = useDispatch();

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Layout, Menu, Carousel, Typography, Row, Col, Button, Card } from 'antd';
+import { Layout, Carousel, Typography, Row, Button} from 'antd';
 import 'antd/dist/reset.css';
 import './home.css';
 import Gallery from '../../components/Gallery';
@@ -8,7 +8,7 @@ import BenefitsSection from './BenefitsSection';
 import MoreFeaturesSection from './MoreFeaturesSection';
 import CreateSection from './CreateSection';
 
-const { Header, Content, Footer } = Layout;
+const { Content } = Layout;
 const { Title, Paragraph } = Typography;
 
 const App = () => {

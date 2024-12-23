@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { Image , Card, Button } from 'antd';
+import { Image, Button } from 'antd';
 import { LeftOutlined, RightOutlined } from '@ant-design/icons';
 import { Link } from 'react-router-dom';
 import './style.css'
@@ -59,9 +59,8 @@ const ToolCards = () => {
         ref={scrollRef}
         style={{
           display: 'flex',
-          overflowX: 'auto',
+          overflowX: 'hidden',
           scrollBehavior: 'smooth',
-          overflowX: 'hidden', 
           gap: '16px',
           padding: '10px',
           whiteSpace: 'nowrap',

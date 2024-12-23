@@ -1,4 +1,4 @@
-import { Row, Col, Card, Tooltip, message, Button, Spin } from 'antd';
+import { Row, Col, Tooltip, message, Button, Spin } from 'antd';
 import { Layout, Image, Space } from 'antd';
 import { 
   HistoryOutlined, CopyOutlined, DownloadOutlined, LeftOutlined, 
@@ -7,7 +7,7 @@ import {
 } from '@ant-design/icons';
 import './HistoryArea.css'
 import { useEffect, useState } from 'react';
-import { useSelector, useDispatch } from 'react-redux';
+import { useSelector } from 'react-redux';
 
 import axios from "axios";
 

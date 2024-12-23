@@ -1,4 +1,4 @@
-import tagReducer from "./tags";
+// import tagReducer from "./tags";
 import formReducer from './form'
 import userReducer from './user'
 import generateImageReducer from './generateImage';

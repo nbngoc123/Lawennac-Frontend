@@ -1,16 +1,12 @@
-import { NavLink, Outlet } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import './style.css';
 import logo from "./logo4.png";
-import { Button, Layout, Tabs } from "antd";
-import { RightOutlined, LeftOutlined, SearchOutlined, MenuFoldOutlined } from '@ant-design/icons';
-import Notify from "../../components/Notify";
-import MenuSider from "../../components/Menu";
+import { Layout, Tabs } from "antd";
 import { useState } from "react";
-import ListImg from "../../components/listImg";
 import { useNavigate } from 'react-router-dom';
 import LoginButton from "../../components/LoginButton";
 function Lawennac() {
-    const { Header, Footer, Sider, Content } = Layout;
+    const { Content } = Layout;
     const items = [
         { label: 'Explore', key: 'explore' },
         { label: 'Create', key: 'create' },
@@ -24,15 +20,15 @@ function Lawennac() {
     navigate(key); // Điều hướng đến đường dẫn tương ứng với key
     };
 
-    const [DisabledSider, setDisabledSider] = useState(false);
-    const handleMenuSider = () => {
-        setDisabledSider(!DisabledSider);
-    };
-    const [collapsed, setCollapsed] = useState(false);
+    // const [DisabledSider, setDisabledSider] = useState(false);
+    // const handleMenuSider = () => {
+    //     setDisabledSider(!DisabledSider);
+    // };
+    // const [collapsed, setCollapsed] = useState(false);
 
-  const toggleSider = () => {
-    setCollapsed(!collapsed);
-  };
+//   const toggleSider = () => {
+//     setCollapsed(!collapsed);
+//   };
     return (
         <>
             <Layout className="layout-default">

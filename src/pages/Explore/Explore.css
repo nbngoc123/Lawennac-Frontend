@@ -3,6 +3,8 @@
   width: 100%;
   height: 100%; /* Độ cao của vùng có thanh cuộn */
   overflow-y: scroll; /* Hiển thị thanh cuộn theo chiều dọc */
+  overflow-x: hidden; /* Hiển thị thanh cuộn theo chiều dọc */
+
   padding: 10px;
 }
 

@@ -1,21 +1,21 @@
 import { NavLink, Outlet } from "react-router-dom";
 import './style.css';
 import logo from "./logo4.png";
-import { Button, Layout } from "antd";
-import { useState } from "react";
+import { Layout } from "antd";
+// import { useState } from "react";
 import LoginButton from "../../components/LoginButton";
 
 function LayoutDefault() {
-    const { Header, Footer, Sider, Content } = Layout;
-    const [DisabledSider, setDisabledSider] = useState(false);
-    const handleMenuSider = () => {
-        setDisabledSider(!DisabledSider);
-    };
-    const [collapsed, setCollapsed] = useState(false);
+    const { Footer, Content } = Layout;
+    // const [DisabledSider, setDisabledSider] = useState(false);
+    // const handleMenuSider = () => {
+    //     setDisabledSider(!DisabledSider);
+    // };
+    // const [collapsed, setCollapsed] = useState(false);
 
-  const toggleSider = () => {
-    setCollapsed(!collapsed);
-  };
+//   const toggleSider = () => {
+//     setCollapsed(!collapsed);
+//   };
     return (
         <>
             <Layout className="layout-default-home">

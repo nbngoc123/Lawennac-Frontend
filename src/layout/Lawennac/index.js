@@ -1,14 +1,14 @@
-import { NavLink, Outlet, useLocation } from "react-router-dom";
+import { Outlet, useLocation } from "react-router-dom";
 import './style.css';
 import logo from "./logo4.png";
 import { Button, Layout, Tabs } from "antd";
-import { RightOutlined, LeftOutlined, SearchOutlined, MenuFoldOutlined, HomeOutlined } from '@ant-design/icons';
-import { useState } from "react";
+import { HomeOutlined } from '@ant-design/icons';
+// import { useState } from "react";
 import { useNavigate } from 'react-router-dom';
 import LoginButton from "../../components/LoginButton";
 
 function Lawennac() {
-  const { Header, Footer, Sider, Content } = Layout;
+  const { Content } = Layout;
   const items = [
     { label: 'Explore', key: 'explore' },
     { label: 'Create', key: 'create' },
@@ -23,15 +23,15 @@ function Lawennac() {
     navigate(key); 
   };
 
-  const [DisabledSider, setDisabledSider] = useState(false);
-  const handleMenuSider = () => {
-    setDisabledSider(!DisabledSider);
-  };
-  const [collapsed, setCollapsed] = useState(false);
+  // const [DisabledSider, setDisabledSider] = useState(false);
+  // const handleMenuSider = () => {
+  //   setDisabledSider(!DisabledSider);
+  // };
+  // const [collapsed, setCollapsed] = useState(false);
 
-  const toggleSider = () => {
-    setCollapsed(!collapsed);
-  };
+  // const toggleSider = () => {
+  //   setCollapsed(!collapsed);
+  // };
 
   const activeKey = location.pathname.substring(1) || "explore"; 
 
