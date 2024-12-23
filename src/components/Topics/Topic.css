@@ -1,0 +1,13 @@
+:where(.css-dev-only-do-not-override-49qm).ant-tag.ant-tag-blue {
+    background-color: #252424;
+    border-radius: 12px;
+    border-color: #161616;
+    color: rgb(148, 158, 165);
+}
+
+:where(.css-dev-only-do-not-override-49qm).ant-tag.ant-tag-blue:hover {
+    background-color: #272727;
+    border-radius: 12px;
+    border-color: #272727;
+    color: #ffffff;
+}

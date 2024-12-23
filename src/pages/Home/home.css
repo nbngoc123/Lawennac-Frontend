@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.ant-layout-header {
+  background: #001529;
+}
+
+.info-block {
+  text-align: center;
+  padding: 20px;
+}
+
+.ant-carousel img {
+  border-radius: 8px;
+}
+
+.ant-layout-content {
+  background: #f5f5f5;
+}

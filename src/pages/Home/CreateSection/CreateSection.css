@@ -1,0 +1,61 @@
+.create-section {
+    background: #f0f2f5;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .create-content {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .create-content button:hover {
+    background-color: #40a9ff !important;
+    border-color: #40a9ff !important;
+  }
+  
+  .create-content h2 {
+    margin-bottom: 20px;
+  }
+  .create-section {
+    background: #f0f2f5;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .create-content {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .create-content button {
+    background-color: #000; /* Nền nút màu đen */
+    border: 2px solid #000; /* Viền màu xanh */
+    color: #fff; /* Màu chữ xanh */
+    padding: 0 40px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Thêm chuyển động mượt mà */
+  }
+  
+  .create-content button:hover {
+    background-color: #000; /* Nền màu xanh khi hover */
+    border-color: #000; /* Viền màu sáng hơn khi hover */
+    color: #fff; /* Màu chữ trắng khi hover */
+    transform: scale(1.1); /* Phóng to nút */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Thêm bóng đổ khi hover */
+  }
+  
+  .create-content h2 {
+    margin-bottom: 20px;
+  }
+  

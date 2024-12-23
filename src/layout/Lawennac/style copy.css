@@ -1,0 +1,168 @@
+
+.layout-default {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #000000;
+}
+
+/* Tùy chỉnh thanh cuộn */
+.layout-default {
+    width: 100%;
+    height: 500px; /* Độ cao của vùng có thanh cuộn */
+    overflow-y: scroll; /* Hiển thị thanh cuộn theo chiều dọc */
+  }
+  
+  /* Tùy chỉnh thanh cuộn */
+  .layout-default::-webkit-scrollbar {
+    width: 0px; /* Độ rộng thanh cuộn */
+  }
+  
+  .layout-default::-webkit-scrollbar-track {
+    background: #000000; /* Màu nền của track */
+    border-radius: 10px;
+  }
+  
+  .layout-default::-webkit-scrollbar-thumb {
+    background: #888; /* Màu thanh cuộn */
+    border-radius: 10px;
+  }
+  
+  .layout-default::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Màu khi hover */
+  }
+  
+
+header {
+    background-color: #000000;
+}
+.header-default {
+    display: flex;
+    background-color: #1f1f1f;
+    padding: 10px 15px 2px 10px;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 2px;
+    margin: 8px;
+}
+
+.logo {
+    align-items: center;
+    width: 123px;
+    margin-right: 20px;
+}
+
+
+.header-default .ant-tabs {
+    width: 100%; /* Or a specific width if needed */
+    flex-grow: 1; /* Allow the tabs to take up available space */
+    background-color: #1f1f1f;
+    align-items: center;
+}
+.header-default .ant-tabs-tab {
+    align-items: center;
+    padding: auto;
+    color: #d1cfcf;
+    padding: 12px 34px;
+
+}
+.header-default .ant-tabs-tab-active {
+    background-color: #444; /* Add a background color to the active tab */
+    border-radius: 80px;
+    padding: 0px 34px;
+    color: #fff;
+
+  }
+  .header-default .ant-tabs-ink-bar { 
+    display: none; 
+  }
+.header-default .ant-tabs-nav-list {
+    background-color: #000000; /* Add a background color to the active tab */
+    border-radius: 80px;
+    padding: 4px 4px;
+    
+}
+.ant-tabs-nav::before {
+    border-bottom: none !important; 
+  }
+
+.notify {
+    display: flex;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    margin-bottom: 8px;
+    align-items: center;
+    background-color: #333;
+    margin-left: 20px;
+}
+.menu {
+    margin-left: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    border-radius: 4px;
+}
+.search {
+    margin-left: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+    background-color: #515561;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    
+}
+.nav-link:hover {
+    color: #ccc;
+}
+.main {
+    flex: 1;
+    padding: 8px;
+    background-color: #000000;
+    min-height: '100vh';
+    overflow: 'auto'
+
+    
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    clear: both;
+}
+.active {
+    color: #ff9900
+}
+
+.right-wrapper {
+  position: absolute;
+  right: 0; /* Hoặc bạn có thể thử left: -24px; để nó ở ngoài một chút nếu cần */
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 100;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.collesp-icon {
+    padding: 35px 1px 35px 7px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #1e1f22; /* Màu nền của nút */
+  color: white; /* Màu chữ hoặc biểu tượng */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Tạo đổ bóng */
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  
+}
