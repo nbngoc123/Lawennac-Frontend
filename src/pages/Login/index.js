@@ -44,9 +44,9 @@ const LoginPage = () => {
     // console.log('Received values:', values);
 
     if (isNewAccount) {
-      handleSubmit('http://localhost:3006/users/add', values);
+      handleSubmit('https://lawennac-backend.onrender.com/users/add', values);
     } else {
-      handleSubmit('http://localhost:3006/users/auth/login', values);
+      handleSubmit('https://lawennac-backend.onrender.com/users/auth/login', values);
     }
   };
 

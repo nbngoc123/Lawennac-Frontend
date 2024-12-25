@@ -30,7 +30,7 @@ const HistoryArea = () => {
   };
 
   useEffect(() => {
-    fetchImages(`http://localhost:3006/api/image-requests/${userLogined.userId}`);
+    fetchImages(`https://lawennac-backend.onrender.com/api/image-requests/${userLogined.userId}`);
   }, [res.status, userLogined.userId]);
 
   const handleCopy = (title) => {

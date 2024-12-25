@@ -78,7 +78,7 @@ const PromptArea = () => {
       ...values,
       lora: loraList.filter((lora) => lora.model), // Lọc các LoRA đã nhập model
     }
-    handleSubmit('http://localhost:3006/api/image-requests/generate', data, userLogined.userId)
+    handleSubmit('https://lawennac-backend.onrender.com/api/image-requests/generate', data, userLogined.userId)
     // form.resetFields();
 
     
